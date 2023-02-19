@@ -63,12 +63,17 @@ function App() {
     event.preventDefault();
     let cityInput = document.querySelector("#city-input");
     let city = cityInput.value;
+    searchCity(city);
+  }
+
+  function searchCity(city) {
     let key = "cb286bad3607984b41ed10c8de5cf00e";
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=metric`;
     axios.get(url).then(weather);
   }
   let form = document.querySelector("#search-form");
   form.addEventListener("submit", search);
+  searchCity("kyiv");
   //unit
   function displayFahrenheitTemperature(event) {
     event.preventDefault();
