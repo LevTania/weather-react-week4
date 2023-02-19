@@ -30,11 +30,17 @@ function App() {
                       19
                     </span>
                     <span class="unit">
-                      <a href="#" id="celsius-link">
+                      <a
+                        href="https://github.com/LevTania/weather-react-week4"
+                        id="celsius-link"
+                      >
                         °C
                       </a>{" "}
                       |{" "}
-                      <a href="#" id="fahrenheit-link">
+                      <a
+                        href="https://github.com/LevTania/weather-react-week4"
+                        id="fahrenheit-link"
+                      >
                         °F
                       </a>
                     </span>
