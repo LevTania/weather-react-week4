@@ -154,22 +154,16 @@ function App() {
                     />
                   </div>
                   <div class="col">
-                    <h2 id="time">-</h2>
+                    <h2 id="time">11:00</h2>
                     <span class="temperature" id="temperature">
                       19
                     </span>
                     <span class="unit">
-                      <a
-                        href="https://github.com/LevTania/weather-react-week4"
-                        id="celsius-link"
-                      >
+                      <a href="/" id="celsius-link">
                         °C
                       </a>{" "}
                       |{" "}
-                      <a
-                        href="https://github.com/LevTania/weather-react-week4"
-                        id="fahrenheit-link"
-                      >
+                      <a href="/" id="fahrenheit-link">
                         °F
                       </a>
                     </span>
